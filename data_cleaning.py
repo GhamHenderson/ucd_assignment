@@ -12,8 +12,8 @@ def data_cleaning(df_train, df_test):
     print("\n", df_test.isnull().sum())
 
     # Drop Undesired Columns
-    df_train.drop(columns=['Header', 'Developer'], inplace=True)
-    df_test.drop(columns=['Header', 'Developer'], inplace=True)
+    df_train.drop(columns=["Header", "Developer"], inplace=True)
+    df_test.drop(columns=["Header", "Developer"], inplace=True)
 
     # Confirm the changes
     print("\n", df_train.head())
@@ -23,6 +23,6 @@ def data_cleaning(df_train, df_test):
     df_train_cleaned = df_train.copy()
 
     # Remove extreme outliers from the training data in terms of tweet length.
-    df_train_cleaned = df_train_cleaned[df_train_cleaned['text'].apply(len) < 600]
+    df_train_cleaned = df_train_cleaned[df_train_cleaned["text"].apply(len) < 600]
 
     return df_train_cleaned, df_test_cleaned

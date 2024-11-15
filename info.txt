@@ -1,0 +1,38 @@
+Dataset: https://www.kaggle.com/datasets/jp797498e/twitter-entity-sentiment-analysis/data
+
+CLI OUTPUT DURING TRAINING
+
+Epoch 1/10
+2089/2089 ━━━━━━━━━━━━━━━━━━━━ 1025s 490ms/step - accuracy: 0.4429 - loss: 8.5737 - val_accuracy: 0.6506 - val_loss: 1.1751
+
+Epoch 2/10
+2089/2089 ━━━━━━━━━━━━━━━━━━━━ 1002s 480ms/step - accuracy: 0.8176 - loss: 0.6374 - val_accuracy: 0.6827 - val_loss: 0.8766
+
+Epoch 3/10
+2089/2089 ━━━━━━━━━━━━━━━━━━━━ 937s 448ms/step - accuracy: 0.8685 - loss: 0.4989 - val_accuracy: 0.9257 - val_loss: 0.3248
+
+Epoch 4/10
+2089/2089 ━━━━━━━━━━━━━━━━━━━━ 1004s 481ms/step - accuracy: 0.8905 - loss: 0.4249 - val_accuracy: 0.6817 - val_loss: 1.1571
+
+Epoch 5/10
+2089/2089 ━━━━━━━━━━━━━━━━━━━━ 1087s 520ms/step - accuracy: 0.9006 - loss: 0.3922 - val_accuracy: 0.8976 - val_loss: 0.3706
+
+Epoch 6/10
+2089/2089 ━━━━━━━━━━━━━━━━━━━━ 1056s 505ms/step - accuracy: 0.9157 - loss: 0.3469 - val_accuracy: 0.9076 - val_loss: 0.3674
+
+Epoch 7/10
+2089/2089 ━━━━━━━━━━━━━━━━━━━━ 1098s 525ms/step - accuracy: 0.9223 - loss: 0.3246 - val_accuracy: 0.9418 - val_loss: 0.2572
+
+Epoch 8/10
+2089/2089 ━━━━━━━━━━━━━━━━━━━━ 1026s 491ms/step - accuracy: 0.9269 - loss: 0.3036 - val_accuracy: 0.9418 - val_loss: 0.2822
+
+Epoch 9/10
+2089/2089 ━━━━━━━━━━━━━━━━━━━━ 1104s 529ms/step - accuracy: 0.9333 - loss: 0.2874 - val_accuracy: 0.9538 - val_loss: 0.2690
+
+Epoch 10/10
+2089/2089 ━━━━━━━━━━━━━━━━━━━━ 1100s 527ms/step - accuracy: 0.9328 - loss: 0.2877 - val_accuracy: 0.9237 - val_loss: 0.3373
+
+32/32 ━━━━━━━━━━━━━━━━━━━━ 6s 184ms/step - accuracy: 0.9186 - loss: 0.3297
+
+Test Loss: 0.3372557759284973
+Test Accuracy: 0.9236947894096375
