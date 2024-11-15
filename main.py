@@ -25,3 +25,5 @@ model = model_training(input_dim, maxlen, test_labels_encoded, test_padded, trai
 df_train_clean.to_csv('training/twitter_training_cleaned.csv', index=False)
 df_test_clean.to_csv('validation/twitter_validation_cleaned.csv', index=False)
 
+# evaluate the model
+test_loss, test_acc = model.evaluate(test_labels_encoded, test_padded, verbose=2)
